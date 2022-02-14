@@ -1,0 +1,15 @@
+<div class="container">
+  <h1 class="header">Stupid Coaching</h1>
+
+  <div class="sentence question">
+    <p><%=@user_question%></p>
+    <h3>You</h3>
+  </div>
+
+  <div class="sentence answer __expression">
+    <p><%=@coach_answer%></p>
+    <h3>Your coach</h3>
+  </div>
+
+  <p><%= link_to "Ask a new question", "/ask" %></p>
+</div>
